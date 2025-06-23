@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npx tsc --noEmit && npm test -- --ci",
+    "working_directory": "/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend"
+}
