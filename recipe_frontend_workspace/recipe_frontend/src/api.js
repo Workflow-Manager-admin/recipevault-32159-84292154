@@ -1,8 +1,14 @@
 import axios from "axios";
 
-// Base URL for backend (update if using a different deployment path)
-const API_BASE = "https://vscode-internal-79589-qa.qa01.cloud.kavia.ai:3001";
-
+/*
+  Base URL for backend (update if using a different deployment path)
+  NOTE: To avoid CORS/network issues during local/dev deployments, consider:
+  - Setting API_BASE to relative path ("/api") if using a proxy.
+  - Aligning this with the backend host/port, e.g., http://localhost:3001.
+  - Environment-variable based configuration (e.g., REACT_APP_API_BASE).
+  - For deployments using different domains/ports, ensure correct value.
+*/
+const API_BASE = process.env.REACT_APP_API_BASE || "https://vscode-internal-79589-qa.qa01.cloud.kavia.ai:3001";
 // PUBLIC_INTERFACE
 export async function fetchRecipes(query = "") {
   // Search or fetch recipe list

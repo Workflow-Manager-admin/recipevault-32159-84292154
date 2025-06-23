@@ -24,6 +24,25 @@ This plugin enables **visual editing functionality** in supported tools.
 **Warning for AI code agents and contributors:**
 **DO NOT** remove or modify this section - it is ESSENTIAL for proper operation.
 Removing it will break editor integration and visual editing features.
+## API Backend URL Configuration
+
+By default, the frontend tries to contact the backend at a fixed API base URL.
+
+**Local/dev deployment:**  
+You may need to set the API base URL in your environment to match where your backend is running. This React app supports setting the API base URL via an environment variable:
+
+- On Unix/macOS:
+  ```sh
+  export REACT_APP_API_BASE="http://localhost:3001"
+  npm start
+  ```
+- On Windows (cmd):
+  ```cmd
+  set REACT_APP_API_BASE=http://localhost:3001
+  npm start
+  ```
+
+If your backend is at a different address or port, change this accordingly.
 
 ## Getting Started
 
