@@ -23,3 +23,271 @@ modules by path ./.ve/ 15.1 KiB
     ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
 webpack 5.99.9 compiled successfully in 1373 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.39 MiB [cached] 1 asset
+asset index.html 1.98 KiB [emitted]
+cached modules 1.25 MiB (javascript) 27.5 KiB (runtime) [cached] 51 modules
+javascript modules 15 KiB
+  modules by path ./.ve/ 12.2 KiB
+    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
+    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
+    ./.ve/SidePanel.js 7.93 KiB [built]
+  modules by path ./src/*.js 2.75 KiB
+    ./src/index.js 530 bytes [built]
+    ./src/App.js 2.24 KiB [built]
+webpack 5.99.9 compiled successfully in 229 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.49 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.c183ddca1b145268846a.hot-update.js 54 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.c183ddca1b145268846a.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.49 MiB = bundle.js 1.44 MiB main.c183ddca1b145268846a.hot-update.js 54 KiB
+cached modules 1.26 MiB [cached] 41 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 29.6 KiB
+  modules by path ./src/pages/*.js 18.6 KiB
+    ./src/pages/Home.js 2.55 KiB [built] [code generated]
+    ./src/pages/RecipeDetail.js 3.06 KiB [built] [code generated]
+    ./src/pages/Search.js 3.28 KiB [built] [code generated]
+    ./src/pages/Auth.js 3.71 KiB [built] [code generated]
+    ./src/pages/RecipeForm.js 4.36 KiB [built] [code generated]
+    ./src/pages/Favorites.js 1.62 KiB [built] [code generated]
+  modules by path ./src/*.js 11 KiB
+    ./src/App.js 5.69 KiB [built] [code generated]
+    ./src/AuthContext.js 2.64 KiB [built] [code generated]
+    ./src/api.js 2.68 KiB [built] [code generated]
+
+ERROR in ./src/App.js 2:0-103
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/api.js 1:0-26
+Module not found: Error: Can't resolve 'axios' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/AuthContext.js 2:0-72 31:6-18 41:24-33 65:12-22 81:12-22
+ @ ./src/App.js 10:0-54 16:6-13 95:6-13 164:27-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/Favorites.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 9:0-42 142:40-49
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/Home.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/RecipeDetail.js 3:0-45
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 5:0-48 112:33-45
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/RecipeForm.js 4:0-58
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 8:0-44 124:40-50 133:40-50
+ @ ./src/index.js 5:0-24 11:32-35
+
+ERROR in ./src/pages/Search.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 6:0-36 106:33-39
+ @ ./src/index.js 5:0-24 11:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 236 ms
+Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 1.44 MiB
+  asset bundle.js 1.44 MiB [emitted] (name: main)
+  asset main.90bf7f2f19f2e92604b6.hot-update.js 2.82 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.90bf7f2f19f2e92604b6.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.44 MiB = bundle.js 1.44 MiB main.90bf7f2f19f2e92604b6.hot-update.js 2.82 KiB
+cached modules 1.29 MiB [cached] 49 modules
+runtime modules 27.5 KiB 14 modules
+./src/index.js 591 bytes [built] [code generated]
+
+ERROR in ./src/App.js 2:0-103
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/api.js 1:0-26
+Module not found: Error: Can't resolve 'axios' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/pages/Home.js 2:0-38 14:4-16
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Favorites.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 9:0-42 142:40-49
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Home.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/RecipeDetail.js 3:0-45
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 5:0-48 112:33-45
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/RecipeForm.js 4:0-58
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 8:0-44 124:40-50 133:40-50
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Search.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 6:0-36 106:33-39
+ @ ./src/index.js 5:0-24 13:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 46 ms
+assets by status 1.44 MiB [cached] 2 assets
+cached modules 1.29 MiB (javascript) 27.5 KiB (runtime) [cached] 64 modules
+
+LOG from webpack.FileSystemInfo
+<w> Managed item /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
++ 14 hidden lines
+
+ERROR in ./src/App.js 2:0-103
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/api.js 1:0-26
+Module not found: Error: Can't resolve 'axios' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+ @ ./src/pages/Home.js 2:0-38 14:4-16
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Favorites.js 2:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 9:0-42 142:40-49
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Home.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/RecipeDetail.js 3:0-45
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 5:0-48 112:33-45
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/RecipeForm.js 4:0-58
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 8:0-44 124:40-50 133:40-50
+ @ ./src/index.js 5:0-24 13:32-35
+
+ERROR in ./src/pages/Search.js 3:0-40
+Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/pages'
+ @ ./src/App.js 6:0-36 106:33-39
+ @ ./src/index.js 5:0-24 13:32-35
+
+7 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.99.9 compiled with 7 errors in 63 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 2.14 MiB
+  asset bundle.js 1.77 MiB [emitted] (name: main)
+  asset main.f1d942a77fc7f7255b84.hot-update.js 380 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.f1d942a77fc7f7255b84.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.14 MiB = bundle.js 1.77 MiB main.f1d942a77fc7f7255b84.hot-update.js 380 KiB
+cached modules 1.27 MiB [cached] 44 modules
+runtime modules 28.7 KiB 15 modules
+javascript modules 328 KiB
+  modules by path ./src/ 20.6 KiB
+    ./src/App.js 5.69 KiB [code generated]
+    ./src/pages/Home.js 2.55 KiB [code generated]
+    ./src/pages/RecipeDetail.js 3.06 KiB [code generated]
+    ./src/pages/Search.js 3.28 KiB [code generated]
+    ./src/pages/RecipeForm.js 4.36 KiB [code generated]
+    ./src/pages/Favorites.js 1.62 KiB [code generated]
+  built modules 307 KiB [built]
+    ./node_modules/react-router-dom/dist/index.js 55.4 KiB [built] [code generated]
+    ./node_modules/react-router/dist/index.js 59.3 KiB [built] [code generated]
+    ./node_modules/@remix-run/router/dist/router.js 193 KiB [built] [code generated]
+
+ERROR in ./src/api.js 1:0-26
+Module not found: Error: Can't resolve 'axios' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+resolve 'axios' in '/home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src'
+  Parsed request is a module
+  using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./src)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/src/node_modules doesn't exist or is not a directory
+      looking for modules in /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules
+        single file module
+          using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./node_modules/axios)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios is not a file
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios.js doesn't exist
+            .jsx
+              Field 'browser' doesn't contain a valid alias configuration
+              /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios.jsx doesn't exist
+        existing directory /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios
+          using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./node_modules/axios)
+            using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./node_modules/axios)
+              no extension
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios is not a file
+              .js
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios.js doesn't exist
+              .jsx
+                Field 'browser' doesn't contain a valid alias configuration
+                /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios.jsx doesn't exist
+              as directory
+                existing directory /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios
+                  using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./node_modules/axios)
+                    using path: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios/index
+                      using description file: /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/package.json (relative path: ./node_modules/axios/index)
+                        no extension
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios/index doesn't exist
+                        .js
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios/index.js doesn't exist
+                        .jsx
+                          Field 'browser' doesn't contain a valid alias configuration
+                          /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/recipe_frontend/node_modules/axios/index.jsx doesn't exist
+      /home/kavia/workspace/code-generation/recipevault-32159-84292154/recipe_frontend_workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/recipevault-32159-84292154/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
+      /home/kavia/workspace/node_modules doesn't exist or is not a directory
+      /home/kavia/node_modules doesn't exist or is not a directory
+      /home/node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+ @ ./src/pages/Home.js 2:0-38 14:4-16
+ @ ./src/App.js 4:0-32 100:33-37
+ @ ./src/index.js 5:0-24 13:32-35
+
+webpack 5.99.9 compiled with 1 error in 290 ms
+assets by status 1.98 KiB [cached] 1 asset
+assets by path *.js 2.1 MiB
+  asset bundle.js 1.93 MiB [emitted] (name: main)
+  asset main.b5cbcce212709007d0d2.hot-update.js 170 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.b5cbcce212709007d0d2.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 2.1 MiB = bundle.js 1.93 MiB main.b5cbcce212709007d0d2.hot-update.js 170 KiB
+cached modules 1.59 MiB [cached] 52 modules
+runtime modules 28.7 KiB 15 modules
+orphan modules 681 bytes [orphan] 1 module
+javascript modules 103 KiB
+  modules by path ./node_modules/axios/lib/helpers/*.js 29 KiB 23 modules
+  modules by path ./node_modules/axios/lib/core/*.js 25.8 KiB 9 modules
+  modules by path ./node_modules/axios/lib/platform/ 2.31 KiB 6 modules
+  modules by path ./node_modules/axios/lib/cancel/*.js 3.5 KiB 3 modules
+  modules by path ./node_modules/axios/lib/adapters/*.js 14.9 KiB 3 modules
+  modules by path ./node_modules/axios/lib/*.js 20.4 KiB 2 modules
+  modules by path ./node_modules/axios/lib/defaults/*.js 4.49 KiB 2 modules
+  ./src/api.js 2.68 KiB [code generated]
+  ./node_modules/axios/lib/env/data.js 32 bytes [built] [code generated]
+webpack 5.99.9 compiled successfully in 204 ms
